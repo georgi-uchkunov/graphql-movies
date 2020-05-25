@@ -25,7 +25,7 @@ const UserSchema = new Schema({
         type: String,
         required: true,
     },
-    games: {
+    movies: {
         type: [Game.schema]
     }
 })
