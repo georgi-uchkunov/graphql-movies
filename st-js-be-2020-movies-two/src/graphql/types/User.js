@@ -7,7 +7,7 @@ export default `
         email: String!
         userType: String!
         password: String!
-        games: [Game]
+        movies: [Movie]
     }
 
     type Query {
